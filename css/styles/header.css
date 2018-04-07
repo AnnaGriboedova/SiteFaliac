@@ -1,0 +1,70 @@
+.header_intro-wrapper {
+    background: url(../../images/fons/comp.png) no-repeat center;
+    background-size: cover;
+    height: 600px;
+}
+.header_logo {
+    margin-top: 35px;
+    width: 200px;
+    height: 100px;
+    text-align: left;
+    background: url(../../images/icons/icon1.png) no-repeat;
+}
+.header_logo, .header_nav-form {
+    display: inline-block;    
+}
+.header_heading{
+    padding-top: 100px;
+}
+.header_nav-form {
+    float: right;
+    padding-top: 80px;    
+}
+.header_nav-form_link {    
+    color: white;
+}
+.header_nav-form_link:hover {
+    text-shadow: 0 0 2em #48BF72;
+    color: #48BF72;
+}
+.header_nav-form_link:after {
+    content: '/'; 
+    color: rgba(255,255,255,0.3);
+    margin-left: 50px;
+    margin-right: 50px; 
+}
+.header_nav-form_link:last-child:after {
+    content: '';
+    margin: 0 0;
+}
+.header_heading1, .header_heading2 {
+    -webkit-margin-after: 30px;
+    color: #fff;
+    text-align: center;
+}
+.header_heading1 {
+    font-size: 46px;
+    font-family: BigJohn, Arial Black, sans-serif;
+}
+.header_heading2 {
+    font-size: 30px;
+    font-family: SlimJoe, sans-serif;
+    font-weight: 100;
+}
+.header_main_button {    
+    display:block;
+    margin:0 auto;
+    width: 130px;
+    padding: 8px;
+    color: #48BF72;
+    border: 2px solid #48BF72;
+    background-color: transparent;
+    margin-top: 50px;    
+}
+.header_main_button:hover{
+    cursor: pointer;
+    background: #47bf71;
+    color: white;
+    border: 2px solid white;
+    transition: 0.4s;
+}

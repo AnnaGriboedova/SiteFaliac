@@ -1,0 +1,22 @@
+.block-navMenu_container{
+    margin:0;
+    padding: 15px 0;
+    text-align: center;    
+}
+.block-navMenu_line {
+    display: inline-block;
+}
+.block-navMenu_link {
+    background-color: #eaeaea;
+    padding: 5px 15px;
+    margin: 3px;
+    line-height: 90px;
+    border-radius: 3px;   
+    color: #424E5A;
+}
+
+.block-navMenu_link:hover {
+    background: #47bf71;
+    color: white;
+    transition: 0.4s;
+}

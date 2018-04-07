@@ -1,0 +1,76 @@
+@import url(styles/header.css);
+@import url(styles/form.css);
+@import url(styles/footer.css);
+@import url(styles/fourBlocks.css);
+@import url(styles/blockMen.css);
+@import url(styles/blockNavMenu.css);
+@font-face {
+    font-family: 'BigJohn';
+    src: url('../fonts/Big_John/Big_John.eot');
+    src: url('../fonts/Big_John/Big_John.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Big_John/Big_John.woff2') format('woff2'),
+         url('../fonts/Big_John/Big_John.woff') format('woff'),
+         url('../fonts/Big_John/Big_John.ttf') format('truetype'),
+         url('../fonts/Big_John/Big_John.svg#big_johnregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SlimJoe';
+    src: url('../fonts/Slim_Joe/Slim_Joe.eot');
+    src: url('../fonts/Slim_Joe/Slim_Joe.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Slim_Joe/Slim_Joe.woff2') format('woff2'),
+         url('../fonts/Slim_Joe/Slim_Joe.woff') format('woff'),
+         url('../fonts/Slim_Joe/Slim_Joe.ttf') format('truetype'),
+         url('../fonts/Slim_Joe/Slim_Joe.svg#big_johnregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LatoBold';
+    src: url('../fonts/Lato_Bold/Lato_Bold.eot');
+    src: url('../fonts/Lato_Bold/Lato_Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato_Bold/Lato_Bold.woff2') format('woff2'),
+         url('../fonts/Lato_Bold/Lato_Bold.woff') format('woff'),
+         url('../fonts/Lato_Bold/Lato_Bold.ttf') format('truetype'),
+         url('../fonts/Lato_Bold/Lato_Bold.svg#big_johnregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LatoRegular';
+    src: url('../fonts/Lato_Regular/Lato_Regular.eot');
+    src: url('../fonts/Lato_Regular/Lato_Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato_Regular/Lato_Regular.woff2') format('woff2'),
+         url('../fonts/Lato_Regular/Lato_Regular.woff') format('woff'),
+         url('../fonts/Lato_Regular/Lato_Regular.ttf') format('truetype'),
+         url('../fonts/Lato_Regular/Lato_Regular.svg#big_johnregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.all_body{
+    margin: 0;
+    font-family: Microsoft Sans Serif, Arial, Lucida Sans Unicode, sans-serif;
+}
+.content {
+    min-height: calc(100vh - 120px);
+}
+
+.aligning {   
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.link-menu-font{
+    font-family: LatoBold, Microsoft Sans Serif, Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+.joint-button-fonts{
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    outline: none;
+    font-family: Lato Bold, Tahoma, Arial, serif;
+    font-size: 13px;
+}

@@ -1,0 +1,79 @@
+.footer {    
+    background: #3C4955;    
+}
+.footer-wrapper{  
+    color: #fff;
+    height: 200px;
+}
+.footer-wrapper:before {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    content: "";
+}
+.footer-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer_soc-network {   
+    height: 60px;
+    float: right;
+    margin: 70px 0;
+}
+.footer-soc-network_icon {
+    width: 55px;
+    height: 64px;
+    background: url("../../images/icons/sprite2.png") no-repeat;   
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.footer-soc-network_icon:hover{
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.footer-icon_tvitter {
+    background-position: 0 0;
+}
+.footer-icon_linkedIn {
+    background-position: -60px 0;
+}
+.footer-icon_dribbble {
+    background-position: -120px 0;
+}
+.footer-icon_behance {
+    background-position: -180px 0;
+}
+.footer-icon_tvitter:hover {
+    background-position: 0 -67px;
+}
+.footer-icon_linkedIn:hover {
+    background-position: -60px -67px;
+}
+.footer-icon_dribbble:hover {
+    background-position: -120px -67px;
+}
+.footer-icon_behance:hover {
+    background-position: -180px -67px;
+}
+.footer-soc-network_ul-list {
+    margin: 0;
+    padding: 4px;
+    height: 60px;
+}
+.footer-soc-network_line-list {
+    display: inline-block; 
+    margin-right: 30px;
+}
+.footer-soc-network_line-list:last-child {
+    margin-right: 0px;
+}
+.footer-soc-network_line-list[class$="network-link"] {
+    display: block;
+    width: 50px;
+    height: 55px;
+}
+.footer-link-bold{
+    font-weight: 600;
+}
